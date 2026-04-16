@@ -103,16 +103,16 @@ criteria = "safe-to-run"
 version = "0.8.5"
 criteria = "safe-to-run"
 
-[[exemptions.deranged]]
-version = "0.5.8"
-criteria = "safe-to-run"
-
 [[exemptions.crunchy]]
 version = "0.2.2"
 criteria = "safe-to-run"
 
 [[exemptions.data-url]]
 version = "0.3.1"
+criteria = "safe-to-run"
+
+[[exemptions.deranged]]
+version = "0.5.8"
 criteria = "safe-to-run"
 
 [[exemptions.displaydoc]]
@@ -211,10 +211,6 @@ criteria = "safe-to-run"
 version = "0.5.2"
 criteria = "safe-to-run"
 
-[[exemptions.matchers]]
-version = "0.2.0"
-criteria = "safe-to-run"
-
 [[exemptions.libc]]
 version = "0.2.164"
 criteria = "safe-to-run"
@@ -243,6 +239,10 @@ criteria = "safe-to-run"
 version = "0.1.5"
 criteria = "safe-to-run"
 
+[[exemptions.matchers]]
+version = "0.2.0"
+criteria = "safe-to-run"
+
 [[exemptions.maybe-rayon]]
 version = "0.1.1"
 criteria = "safe-to-run"
@@ -259,20 +259,20 @@ criteria = "safe-to-run"
 version = "1.0.6"
 criteria = "safe-to-run"
 
-[[exemptions.nu-ansi-term]]
-version = "0.50.3"
-criteria = "safe-to-run"
-
-[[exemptions.num-conv]]
-version = "0.2.1"
-criteria = "safe-to-run"
-
 [[exemptions.noop_proc_macro]]
 version = "0.3.0"
 criteria = "safe-to-run"
 
+[[exemptions.nu-ansi-term]]
+version = "0.50.3"
+criteria = "safe-to-run"
+
 [[exemptions.num-bigint]]
 version = "0.4.6"
+criteria = "safe-to-run"
+
+[[exemptions.num-conv]]
+version = "0.2.1"
 criteria = "safe-to-run"
 
 [[exemptions.num-integer]]

@@ -365,10 +365,10 @@ who = "Lukasz Anforowicz <lukasza@chromium.org>"
 criteria = "safe-to-run"
 delta = "1.0.75 -> 1.0.79"
 notes = """
-1.0.75 has been previously audited as \"safe-to-run\",
-\"does-not-implement-crypto\" - see
+1.0.75 has been previously audited as "safe-to-run",
+"does-not-implement-crypto" - see
 https://github.com/google/rust-crate-audits/blob/c2d49cb6e80bb817f569debecf846161dcebd88c/audits.toml#L277-L305
-The \"1.0.75 -> 1.0.79\" delta meets the same criteria.
+The "1.0.75 -> 1.0.79" delta meets the same criteria.
 
 This is an incremental/delta audit - we don't claim any particular `ub-risk-N`
 level for the baseline or for the final version.  OTOH note that additional
@@ -1187,7 +1187,7 @@ aggregated-from = "https://chromium.googlesource.com/chromium/src/+/main/third_p
 who = "Lukasz Anforowicz <lukasza@chromium.org>"
 criteria = "safe-to-deploy"
 version = "1.0.197"
-notes = "Grepped for \"unsafe\", \"crypt\", \"cipher\", \"fs\", \"net\" - there were no hits"
+notes = 'Grepped for "unsafe", "crypt", "cipher", "fs", "net" - there were no hits'
 aggregated-from = "https://chromium.googlesource.com/chromium/src/+/main/third_party/rust/chromium_crates_io/supply-chain/audits.toml?format=TEXT"
 
 [[audits.google.audits.serde_derive]]
@@ -1206,7 +1206,7 @@ aggregated-from = "https://chromium.googlesource.com/chromium/src/+/main/third_p
 who = "Lukasz Anforowicz <lukasza@chromium.org>"
 criteria = "safe-to-deploy"
 delta = "1.0.202 -> 1.0.203"
-notes = "Grepped for \"unsafe\", \"crypt\", \"cipher\", \"fs\", \"net\" - there were no hits"
+notes = 'Grepped for "unsafe", "crypt", "cipher", "fs", "net" - there were no hits'
 aggregated-from = "https://chromium.googlesource.com/chromium/src/+/main/third_party/rust/chromium_crates_io/supply-chain/audits.toml?format=TEXT"
 
 [[audits.google.audits.serde_derive]]
@@ -1413,7 +1413,7 @@ criteria = "safe-to-deploy"
 version = "1.6.0"
 notes = """
 Grepped for `-i cipher`, `-i crypto`, `'\bfs\b'``, `'\bnet\b'``, `'\bunsafe\b'``
-and there were no hits except for some \"unsafe\" appearing in comments:
+and there were no hits except for some "unsafe" appearing in comments:
 
 ```
 src/arrayvec.rs:    // Note: This shouldn't use A::CAPACITY, because unsafe code can't rely on

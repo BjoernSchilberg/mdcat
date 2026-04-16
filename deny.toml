@@ -11,6 +11,9 @@ ignore = [
     # paste is unmaintained (RUSTSEC-2024-0436), but there is no safe upgrade
     # available. It is a transitive dependency via rav1e -> ravif -> image.
     "RUSTSEC-2024-0436",
+    # bincode is unmaintained (RUSTSEC-2025-0141), but there is no safe upgrade
+    # available. It is a transitive dependency via syntect.
+    "RUSTSEC-2025-0141",
 ]
 
 [licenses]
