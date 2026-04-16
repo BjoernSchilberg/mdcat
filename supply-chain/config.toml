@@ -103,6 +103,10 @@ criteria = "safe-to-run"
 version = "0.8.5"
 criteria = "safe-to-run"
 
+[[exemptions.deranged]]
+version = "0.5.8"
+criteria = "safe-to-run"
+
 [[exemptions.crunchy]]
 version = "0.2.2"
 criteria = "safe-to-run"
@@ -207,6 +211,10 @@ criteria = "safe-to-run"
 version = "0.5.2"
 criteria = "safe-to-run"
 
+[[exemptions.matchers]]
+version = "0.2.0"
+criteria = "safe-to-run"
+
 [[exemptions.libc]]
 version = "0.2.164"
 criteria = "safe-to-run"
@@ -249,6 +257,14 @@ criteria = "safe-to-run"
 
 [[exemptions.new_debug_unreachable]]
 version = "1.0.6"
+criteria = "safe-to-run"
+
+[[exemptions.nu-ansi-term]]
+version = "0.50.3"
+criteria = "safe-to-run"
+
+[[exemptions.num-conv]]
+version = "0.2.1"
 criteria = "safe-to-run"
 
 [[exemptions.noop_proc_macro]]
@@ -367,6 +383,18 @@ criteria = "safe-to-run"
 version = "1.2.0"
 criteria = "safe-to-run"
 
+[[exemptions.serde]]
+version = "1.0.228"
+criteria = "safe-to-run"
+
+[[exemptions.serde_core]]
+version = "1.0.228"
+criteria = "safe-to-run"
+
+[[exemptions.serde_derive]]
+version = "1.0.228"
+criteria = "safe-to-run"
+
 [[exemptions.serde_spanned]]
 version = "0.6.8"
 criteria = "safe-to-run"
@@ -444,7 +472,15 @@ version = "0.9.1"
 criteria = "safe-to-run"
 
 [[exemptions.time]]
-version = "0.3.36"
+version = "0.3.47"
+criteria = "safe-to-run"
+
+[[exemptions.time-core]]
+version = "0.1.8"
+criteria = "safe-to-run"
+
+[[exemptions.time-macros]]
+version = "0.2.27"
 criteria = "safe-to-run"
 
 [[exemptions.tiny-skia]]
@@ -460,19 +496,19 @@ version = "0.22.22"
 criteria = "safe-to-run"
 
 [[exemptions.tracing]]
-version = "0.1.40"
+version = "0.1.44"
 criteria = "safe-to-run"
 
 [[exemptions.tracing-attributes]]
-version = "0.1.27"
+version = "0.1.31"
 criteria = "safe-to-run"
 
 [[exemptions.tracing-core]]
-version = "0.1.32"
+version = "0.1.36"
 criteria = "safe-to-run"
 
 [[exemptions.tracing-subscriber]]
-version = "0.3.18"
+version = "0.3.23"
 criteria = "safe-to-run"
 
 [[exemptions.ttf-parser]]
