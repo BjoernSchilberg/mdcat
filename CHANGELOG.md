@@ -8,6 +8,18 @@ Use `cargo release` to create a new release.
 
 ## [Unreleased]
 
+## [2.7.2] – 2026-04-16
+
+### Changed
+- Update dependencies: `time` to 0.3.47, `tracing-subscriber` to 0.3.23.
+
+### Fixed
+- Fix Clippy lints for newer Rust versions (`is_some_and`, `Error::other`, `next_back`).
+- Fix broken intra-doc link in `src/resources.rs`.
+
+### Security
+- Ignore `RUSTSEC-2024-0436` (paste) and `RUSTSEC-2025-0141` (bincode) in `deny.toml`.
+
 ## [2.7.1] – 2024-12-14
 
 ### Removed
