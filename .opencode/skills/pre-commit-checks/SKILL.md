@@ -79,6 +79,12 @@ If new dependency versions are unvetted, add exemptions to
 `criteria = "safe-to-run"`, then run `cargo vet fmt` to normalize the file,
 and verify with `cargo vet --locked` again.
 
+**Version sync:** The locally installed `cargo-vet` version must match the
+`CARGO_VET_VERSION` pinned in `.github/workflows/test.yml`. Different versions
+format `imports.lock` differently (e.g. quote escaping in TOML strings), which
+causes consistency errors in CI. Check the versions with `cargo vet --version`
+and keep them in sync.
+
 ## When to use me
 
 Use this skill before every `git commit` and `git push`. All checks must pass
